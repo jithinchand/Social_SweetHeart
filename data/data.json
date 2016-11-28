@@ -5,19 +5,19 @@
       "options" : [
         {
           "option" : "Everybody is from my country.",
-          "reward" : "5"
+          "reward" : 5
         },
         {
           "option" : "Mostly Multi-Cultural.",
-          "reward" : "10"
+          "reward" : 10
         },
         {
           "option" : "Everyone should be from different countries.",
-          "reward" : "7"
+          "reward" : 7
         },
         {
           "option" : "Only team your boyfriend/ girlfriend work for.",
-          "reward" : "1"
+          "reward" : 1
         }
       ]
     },
@@ -26,19 +26,19 @@
       "options" : [
         {
           "option" : "Fun-loving, Flexible and Loose",
-          "reward" : "5"
+          "reward" : 5
         },
         {
           "option" : "Humble and Super-nice",
-          "reward" : "3"
+          "reward" : 3
         },
         {
           "option" : "Professionally fit and always exist to help.",
-          "reward" : "7"
+          "reward" : 7
         },
         {
           "option" : "All of the above, Why not?",
-          "reward" : "10"
+          "reward" : 10
         }
       ]
     }
