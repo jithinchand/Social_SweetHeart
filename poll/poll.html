@@ -1,0 +1,17 @@
+<div id="box">
+    <div ng-show="eventNotFinished">
+        <label data-ng-repeat="choice in radioBtnsData" ng-show="hideRadioBtns">
+            <input type="radio" name="response" data-ng-value="{{choice.value}}" ng-click="selectedResponse()"/>
+            {{choice.value}} </br>
+        </label>
+        <label ng-hide="hideRadioBtns">
+            Your response is noted.
+        </label>
+    </div>
+    <div ng-hide="eventNotFinished">
+        <label>
+            This event is Finished, go to next poll.
+        </label>
+    </div>
+</div>
+<input type="button" name="btnNext" value="Next Poll" onClick="location.reload()">

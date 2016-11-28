@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="gui">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Sweetheart</title>
+
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="poll/poll.css">
+</head>
+<body>
+    <ul>
+        <li ng-class="{active: isActive('/index.html')}"><a href="#" ng-click="pollLink=false">Home</a></li>
+    </ul>
+    <h1>How much social sweetheart are you?</h1>
+    <p ng-hide="pollLink"><a href="#/poll" ng-click="pollLink=true">Start new Poll</a></p>
+    <ng-view></ng-view>
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="poll/poll.js"></script>
+    <script src="poll/pollCtrl.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
