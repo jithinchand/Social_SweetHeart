@@ -1,11 +1,78 @@
 {
   "questions" : [
     {
+      "question" : "Which of these career choices describe you?",
+      "options" : [
+        {
+          "option" : "Make a lot of money working from home, I'm a Freelancer by heart.",
+          "reward" : 3
+        },
+        {
+          "option" : "Choosing Strong growing Startup over large-sized MNC.",
+          "reward" : 10
+        },
+        {
+          "option" : "Choosing MNC over medium-sized startup.",
+          "reward" : 2
+        },
+        {
+          "option" : "Become an entrepreneur, I'm my own boss.",
+          "reward" : 4
+        },
+        {
+          "option" : "Start as an intern, as I'm a recent graduate and zero work experience.",
+          "reward" : 7
+        }
+      ]
+    },
+    {
+      "question" : "Which sort of organizational structure do you see yourself comfortable in?",
+      "options" : [
+        {
+          "option" : "Small- sized startup with no particular organizational structure.",
+          "reward" : 6
+        },
+        {
+          "option" : "Medium-sized company with hierarchical organizational structure.",
+          "reward" : 8
+        },
+        {
+          "option" : "Medium-sized company with flat hierarchical organizational structure.",
+          "reward" : 10
+        },
+        {
+          "option" : "Large-sized MNCs with any hierarchical structure",
+          "reward" : 2
+        }
+      ]
+    },
+    {
+      "question" : "What language do you like to hear at work?",
+      "options" : [
+        {
+          "option" : "Strictly English",
+          "reward" : 4
+        },
+        {
+          "option" : "I love to hear and learn foreign languages",
+          "reward" : 10
+        },
+        {
+          "option" : "Only my mother tongue",
+          "reward" : 5
+        },
+        {
+          "option" : "Language doesn’t bother my work, I'm a loner and don’t speak much!!",
+          "reward" : 2
+        }
+      ]
+    },
+    {
       "question" : "Which type of team you wish to work in?",
       "options" : [
         {
           "option" : "Everybody is from my country.",
-          "reward" : 5
+          "reward" : 3
         },
         {
           "option" : "Mostly Multi-Cultural.",
@@ -13,7 +80,7 @@
         },
         {
           "option" : "Everyone should be from different countries.",
-          "reward" : 7
+          "reward" : 5
         },
         {
           "option" : "Only team your boyfriend/ girlfriend work for.",
@@ -26,19 +93,240 @@
       "options" : [
         {
           "option" : "Fun-loving, Flexible and Loose",
-          "reward" : 5
+          "reward" : 7
         },
         {
           "option" : "Humble and Super-nice",
-          "reward" : 3
+          "reward" : 7
         },
         {
-          "option" : "Professionally fit and always exist to help.",
+          "option" : "Professionally fit and always exist to help",
           "reward" : 7
         },
         {
           "option" : "All of the above, Why not?",
           "reward" : 10
+        }
+      ]
+    },
+    {
+      "question" : "How do you brainstorm?",
+      "options" : [
+        {
+          "option" : "Feel advantageous with a group.",
+          "reward" : 10
+        },
+        {
+          "option" : "Individually, as I’m shy to do this with a group.",
+          "reward" : 5
+        },
+        {
+          "option" : "I'm a Geek and I do share ideas only on collaborative network (like emails) or office channels.",
+          "reward" : 4
+        },
+        {
+          "option" : "I don’t like the idea of brainstorming.",
+          "reward" : 2
+        }
+      ]
+    },
+    {
+      "question" : "In which part of day, you prefer to have a brainstorming session?",
+      "options" : [
+        {
+          "option" : "Beginning of the day.",
+          "reward" : 10
+        },
+        {
+          "option" : "During lunch hour.",
+          "reward" : 2
+        },
+        {
+          "option" : "End of the day.",
+          "reward" : 4
+        },
+        {
+          "option" : "Flexible, i.e., Okay with any part of the day.",
+          "reward" : 7
+        }
+      ]
+    },
+    {
+      "question" : "How do you wish your average work day looks like?",
+      "options" : [
+        {
+          "option" : "Start with a coffee, have good lunch and end the day with a drink.",
+          "reward" : 1
+        },
+        {
+          "option" : "Know your daily to-do(s), Stay focused and finish the task by committing your bug free code.",
+          "reward" : 10
+        },
+        {
+          "option" : "Work for major part of the day and gossiping with your team members in break time.",
+          "reward" : 4
+        },
+        {
+          "option" : "Know your daily to-do(s), live up to the challenges of work and finish daily tasks successfully but forget to commit the code at the end.",
+          "reward" : 6
+        }
+      ]
+    },
+    {
+      "question" : "Which of these will make your day at work?",
+      "options" : [
+        {
+          "option" : "My Manager's appreciation.",
+          "reward" : 5
+        },
+        {
+          "option" : "Finishing days’ work in time and leaving the office early.",
+          "reward" : 6
+        },
+        {
+          "option" : "Getting your favorite dish for lunch.",
+          "reward" : 2
+        },
+        {
+          "option" : "The day when Project is successfully delivered to the client.",
+          "reward" : 10
+        },
+        {
+          "option" : "A smile from my office crush.",
+          "reward" : 3
+        }
+      ]
+    },
+    {
+      "question" : "Do you wish to learn new technologies, even after getting paid well?",
+      "options" : [
+        {
+          "option" : "Of course, Life is all about learning something new.",
+          "reward" : 10
+        },
+        {
+          "option" : "Yes, but only if my company pays for it.",
+          "reward" : 5
+        },
+        {
+          "option" : "Only if it hikes my position at work.",
+          "reward" : 4
+        },
+        {
+          "option" : "Brah!! I'm done learning things all my life.",
+          "reward" : 2
+        }
+      ]
+    },
+    {
+      "question" : "Everyone loves to greet their stomach during work, so which of these free snacks you love to see on your table?",
+      "options" : [
+        {
+          "option" : "All types of drinks, like coffee, tea, colas.",
+          "reward" : 10
+        },
+        {
+          "option" : "Only healthy snacks, as I'm on diet.",
+          "reward" : 10
+        },
+        {
+          "option" : "Anything sweet, I have a sweet tooth.",
+          "reward" : 10
+        },
+        {
+          "option" : "Everything that is tagged as food.",
+          "reward" : 10
+        },
+        {
+          "option" : "Thanks!! But I carry my own snacks, I'm a great cook.",
+          "reward" : 2
+        }
+      ]
+    },
+    {
+      "question" : "Which will make you happier about your work?",
+      "options" : [
+        {
+          "option" : "My Clients Happiness.",
+          "reward" : 6
+        },
+        {
+          "option" : "Self-happiness by committing my code at end of the day successfully.",
+          "reward" : 6
+        },
+        {
+          "option" : "If my work contributes towards Charity and Caritative organizations.",
+          "reward" : 6
+        },
+        {
+          "option" : "I can see myself equally happy in all the above three ways.",
+          "reward" : 10
+        },
+        {
+          "option" : "Make my Manager happy, who cares for Customers, Charity etc.",
+          "reward" : 2
+        }
+      ]
+    },
+    {
+      "question" : "How will you react if you are asked to work for extra hours or on a weekend?",
+      "options" : [
+        {
+          "option" : "Frustrated but attend the work.",
+          "reward" : 4
+        },
+        {
+          "option" : "Attend the work, only to impress the Boss.",
+          "reward" : 5
+        },
+        {
+          "option" : "Look it as a normal thing and stay committed towards work.",
+          "reward" : 10
+        },
+        {
+          "option" : "Happy to be at office and with my colleagues anytime.",
+          "reward" : 6
+        },
+        {
+          "option" : "Try to escape work somehow.",
+          "reward" : 3
+        },
+        {
+          "option" : "Resign the job.",
+          "reward" : 1
+        }
+      ]
+    },
+    {
+      "question" : "This goes personal; how would you like to spend your weekend?",
+      "options" : [
+        {
+          "option" : "Go for a movie, I'm a movie buff.",
+          "reward" : 5
+        },
+        {
+          "option" : "Loves to travel to new places with dear ones.",
+          "reward" : 10
+        },
+        {
+          "option" : "Stay at Home, watch Football and play games.",
+          "reward" : 7
+        },
+        {
+          "option" : "Spend time at loved one’s place.",
+          "reward" : 6
+        },
+        {
+          "option" : "Stay calm and wait for Monday.",
+          "reward" : 2
+        },
+        {
+          "option" : "Re-visiting the classic YouTube videos you bookmark online.",
+          "reward" : 4
+        },
+        {
+          "option" : "Sharing random links with the guy in the office next to you.",
+          "reward" : 3
         }
       ]
     }
