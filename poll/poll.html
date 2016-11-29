@@ -1,13 +1,13 @@
 <div id="box">
     <div id="questionsId" ng-show="showQuestions">
         <p>Question: {{newQuestion}}</p>
-        <label ng-repeat="choice in options">
+        <span ng-repeat="choice in options">
             <input type="radio" name="response" ng-click="selectedResponse(choice.reward)"/>
             {{choice.option}} </br>
-        </label>
+        </span>
     </div>
     <div id="resultsId" ng-hide="showQuestions">
         <p>{{resultData}}</p>
     </div>
 </div>
-<input type="button" name="btnNext" value="Next" ng-click="nextQuestion()" ng-show="showQuestions">
+<input type="button" class="btn" name="btnNext" value="Next" ng-click="nextQuestion()" ng-show="showQuestions">

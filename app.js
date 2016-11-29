@@ -2,6 +2,9 @@ angular.module('gui', ['ngRoute', 'newPoll'])
     .config(function ($routeProvider) {
         'use strict';
         $routeProvider
+            .when('/home', {
+                templateUrl: 'home/home.html'
+            })
             .when('/poll', {
                 controller : 'PollCtrl',
                 templateUrl: 'poll/poll.html',
@@ -11,7 +14,10 @@ angular.module('gui', ['ngRoute', 'newPoll'])
                     }
                 }
             })
+            .when('/about', {
+                templateUrl: 'about/about.html'
+            })
             .otherwise({
-                redirectTo : 'index.html'
+                redirectTo : '/home'
             });
     });

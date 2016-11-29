@@ -6,13 +6,24 @@
 
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="poll/poll.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 <body>
-    <ul>
-        <li ng-class="{active: isActive('/index.html')}"><a href="#" ng-click="pollLink=false">Home</a></li>
-    </ul>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li ng-class="{active: isActive('#')}"><a href="#">Home</a></li>
+                    <li ng-class="{active: isActive('#/about')}"><a href="#/about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1>How much social sweetheart are you?</h1>
-    <p ng-hide="pollLink"><a href="#/poll" ng-click="pollLink=true">Start new Poll</a></p>
     <ng-view></ng-view>
 
     <script src="node_modules/angular/angular.js"></script>
@@ -20,5 +31,8 @@
     <script src="poll/poll.js"></script>
     <script src="poll/pollCtrl.js"></script>
     <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
