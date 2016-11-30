@@ -17,11 +17,14 @@ angular
         $scope.options = $scope.pollData[0].options;
         $scope.reward = 0;
         $scope.totalReward = 0;
+        $scope.checked = true;
         $scope.nextQuestion = function() {
+            $scope.checked = true;
             $scope.totalReward += $scope.reward;
             console.log($scope.totalReward);
             index++;
             if (index >= $scope.pollData.length) {
+                index = 0;
                 $scope.showQuestions = false;
                 $scope.result = ($scope.totalReward * 100)/(10 * $scope.pollData.length);
                 if ($scope.result >= 85) {
@@ -43,7 +46,13 @@ angular
             }
         };
         $scope.selectedResponse = function (reward) {
+            $scope.checked = false;
             $scope.reward = reward;
             console.log(reward);
+        }
+        $scope.resetQuestion = function () {
+            $scope.showQuestions = true;
+            $scope.newQuestion = $scope.pollData[0].question;
+            $scope.options = $scope.pollData[0].options;
         }
     });

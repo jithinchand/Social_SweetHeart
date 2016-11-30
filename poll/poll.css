@@ -16,11 +16,18 @@
     src: url(../fonts/Toxia_FRE.ttf) format('truetype');
 }
 
-#next_button {
-    font-family: "Toxia",fantasy;
+#common_button {
     color: whitesmoke;
     position: relative;
     margin: auto;
     padding: 12px;
     text-align: left;
+}
+
+#next_button {
+    font-family: "Toxia",fantasy;
+}
+
+#reset_button {
+    font-family: fantasy;
 }
