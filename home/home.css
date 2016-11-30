@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Stallion;
+    src: url(../fonts/stalin.ttf) format('truetype');
+}
+
+
+#home_cont {
+    font-family: "Stallion",fantasy;
+    color: whitesmoke;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}

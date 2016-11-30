@@ -1,9 +1,26 @@
-h2 {
-    color: #ff4500;
-}
+
 #box{
     width: auto;
-    padding: 20px;
-    border: solid gray 2px;
-    background-color: #F8F8F8;
+    padding: 30px;
+    border: solid darkred 2px;
+    background-color: darkorange;
+}
+
+.option_font{
+    font-family: 'Elephant';
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: Toxia;
+    src: url(../fonts/Toxia_FRE.ttf) format('truetype');
+}
+
+#next_button {
+    font-family: "Toxia",fantasy;
+    color: whitesmoke;
+    position: relative;
+    margin: auto;
+    padding: 12px;
+    text-align: left;
 }

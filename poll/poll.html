@@ -1,13 +1,19 @@
-<div id="box">
+<div class="container-fluid" id="box">
     <div id="questionsId" ng-show="showQuestions">
-        <p>Question: {{newQuestion}}</p>
-        <span ng-repeat="choice in options">
+        <div class="row">
+            <p style="color: maroon; font-family: 'Haettenschweiler'; font-size: 38px; font-stretch: expanded">{{newQuestion}}</p>
+        </div>
+        <span class= "option_font" ng-repeat="choice in options">
             <input type="radio" name="response" ng-click="selectedResponse(choice.reward)"/>
             {{choice.option}} </br>
         </span>
     </div>
-    <div id="resultsId" ng-hide="showQuestions">
-        <p>{{resultData}}</p>
+
+    <div ng-hide="showQuestions">
+        <p style="font-family: 'Eras Demi ITC'; font-size: 35px; text-align: center; font-weight: bold;color: whitesmoke">{{resultData}}</p>
     </div>
 </div>
-<input type="button" class="btn" name="btnNext" value="Next" ng-click="nextQuestion()" ng-show="showQuestions">
+
+<div id="next_button">
+<input type="button" class="btn btn-danger" name="btnNext" value="NEXT" ng-click="nextQuestion()" ng-show="showQuestions">
+</div>
