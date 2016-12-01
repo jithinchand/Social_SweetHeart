@@ -7,8 +7,9 @@
 }
 
 .option_font{
-    font-family: 'Elephant';
+    font-family: 'Arial Rounded MT Bold';
     font-size: 18px;
+    color: black
 }
 
 @font-face {

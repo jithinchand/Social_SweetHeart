@@ -32,7 +32,7 @@ angular
                         "- Hurry up and apply; The World doesn't wait for you !! Some One might occupy your seat in Social Sweetheart. You can find your matching job on the link below this web page.";
                 }
                 else if ($scope.result <= 85 && $scope.result >= 65) {
-                    $scope.resultData = "Heyy, It's OHKAYY .... YOU are a Social SemiSweet Heart; You can Re-test and become SWEETER !!" +
+                    $scope.resultData = "Heyy, It's OHKAYY .... YOU are a Social SemiSweet Heart; You can Re-test and become SWEETER by clicking the button below !!" +
                         "- You may be the guy for the companies similar to Social Sweetheart, But not for the Social Sweetheart. There's a difference !!";
                 }
                 else {
