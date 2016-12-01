@@ -1,0 +1,14 @@
+This project is a single page web application. Users can answer all the questions on the website and find ot whether they are a perfect match for working at the Social Sweetheart(company) Environment.
+
+Tools Used:
+HTML, CSS, Bootstrap
+AngularJs
+JSON
+Gulp
+npm
+git
+
+Execution:
+$npm install
+$gulp serve
+visit localhost:8080
